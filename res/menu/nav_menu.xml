@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/baseline_home_24"/>
+        <item
+            android:id="@+id/occ"
+            android:title="Occassion"
+            android:icon="@drawable/baseline_home_24"/>
+
+        <item
+            android:id="@+id/themes"
+            android:title="Themes"
+            android:icon="@drawable/baseline_home_24"/>
+        <item
+            android:id="@+id/costume"
+            android:title="Costume"
+            android:icon="@drawable/baseline_home_24"/>
+        <item
+            android:id="@+id/loc"
+            android:title="Location"
+            android:icon="@drawable/baseline_location_on_24"/>
+        <item
+            android:id="@+id/gallery"
+            android:title="Photo Album"
+            android:icon="@drawable/baseline_photo_album_24"/>
+        <item
+            android:id="@+id/pg"
+            android:title="Photographers"
+            android:icon="@drawable/baseline_photo_camera_24"/>
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            android:icon="@drawable/baseline_logout_24"/>
+
+    </group>
+</menu>
